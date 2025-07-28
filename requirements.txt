@@ -1,5 +1,4 @@
 colorama
-collections
 flask
 flask-cors
 geopandas
