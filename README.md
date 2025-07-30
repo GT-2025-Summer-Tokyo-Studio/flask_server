@@ -83,8 +83,42 @@ http://127.0.0.1:8083/get-test
 
 
 
+--- 
 
+## 🚀 Deploy Flask Server on Render
 
+You can easily deploy this Flask API server to the cloud using [Render](https://render.com), a free web service platform for hosting web apps.
 
+---
+
+### 🔧 Steps to Deploy on Render
+
+1. **Login to Render** → [https://render.com](https://render.com)
+
+2. Click **"New Web Service"**
+
+3. **Connect to this GitHub repo**  
+   Select: `kzhou305/flask_server`
+
+4. **Fill out deployment settings**:
+
+| Setting           | Value                              |
+|------------------|-------------------------------------|
+| **Name**         | `flask-server` (or any name)        |
+| **Environment**  | `Python`                            |
+| **Build Command**| `pip install -r requirements.txt`   |
+| **Start Command**| `gunicorn app:app`                  |
+| **Python Version** | (auto from `runtime.txt` or default) |
+
+5. Click **"Create Web Service"**
+
+---
+
+Render will build and host your app. You’ll get a **public URL** like:
+
+```arduino
+https://flask-server.onrender.com
+
+This live Flask API is now ready to be connected to frontend web tool.
 
 
