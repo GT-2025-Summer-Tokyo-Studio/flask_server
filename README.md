@@ -111,14 +111,11 @@ You can easily deploy this Flask API server to the cloud using [Render](https://
 | **Python Version** | (auto from `runtime.txt` or default) |
 
 5. Click **"Create Web Service"**
-
----
-
-Render will build and host your app. You’ll get a **public URL** like:
-
-```arduino
-https://flask-server.onrender.com
-
+   Render will build and host your app. You’ll get a **public URL** like:
+     ```arduino
+      https://flask-server.onrender.com
+     
 This live Flask API is now ready to be connected to frontend web tool.
+
 
 
